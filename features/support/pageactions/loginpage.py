@@ -7,9 +7,12 @@ from features.support.locators import loginpage as loginpage_locators
 
 
 class LoginPage(BasePage):
-    """Action class to perform different actions on home page
-    Usage: home_page = HomePage(context)
-    home_page.type_username('pradeepta')
+    """Action class to perform different actions on login page
+    More specifically, it's a modal, but still we are considering
+    it as a single page.
+﻿﻿﻿
+    Usage: login_page = LoginPage(context)
+    login_page.click_on_your_trips_link()
     """
     def __init__(self, context):
         super(LoginPage, self).__init__(context)
