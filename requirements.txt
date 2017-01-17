@@ -1,0 +1,26 @@
+# ============================================================================
+# PYTHON PACKAGE REQUIREMENTS:
+# ============================================================================
+# REQUIRES: Python >= 2.7.11
+# DESCRIPTION:
+#    pip install -r <THIS_FILE>
+#
+# SPECIFIC DEPENDENCIES:
+#   behave  -- BDD test framework, cucumber-clone for Python.
+#   selenium -- To drive the browser tests
+#   PyHamcrest -- For assertions: assert_that(expected, equal_to(actual))
+#   PyYAML -- For working with yaml files
+#
+# MAYBE:
+#   nose:       for assertions: eq_(x, y)
+#   pytest:     for assertions
+# ============================================================================
+
+PyYAML >= 3.11
+behave >= 1.2.5
+
+parse >= 1.6.3
+parse_type >= 0.3.4
+selenium == 2.53.1
+argparse >= 1.4.0
+PyHamcrest >= 1.8

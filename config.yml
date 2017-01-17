@@ -1,0 +1,45 @@
+# ===================================================================================================
+# AUTOMATION TEST ENVIRONMENT CONFIGURATIONS
+# ===================================================================================================
+# FILE: config.yml
+#
+# SEE ALSO:
+#  * http://selenium-python.readthedocs.org/index.html
+#  * https://code.google.com/p/selenium/wiki/GettingStarted
+# ===================================================================================================
+
+env:
+
+  # Base application url
+  application_url: "https://www.cleartrip.com/"
+
+  # Login credentials
+  username: "cleartrip.test01@gmail.com"
+  password: "Test@1234"
+
+  # Browser name where tests will be executed. Supported browsers are 'firefox',
+  # 'ie', 'chrome', 'safari' and 'phantomjs'. Version is required if you are running
+  # tests on Selenium GRID. For local execution or tests running on Jenkins Slave machines
+  # version can be ignored
+  browser: chrome
+  version: 46.0
+
+  # Default timeout for fetching elements
+  element_fetch_timeout: 30
+
+  # By default Selenium will wait for 15 seconds until it finds the element. Else it will
+  # throws NoSuchElementException or TimeoutException
+  implicit_timeout: 15
+
+  # If set to True, all tests will run the Selenium GRID. Else tests will be executed
+  # on the slave machines tied to that paricular Jenkins job
+  use_grid: False
+
+  # IP of the machine where Selenium HUB is running
+  selenium_grid_ip: 127.0.0.1
+
+  # Port of the machine where Selenium HUB is running
+  selenium_grid_port: 4444
+
+  # Number of days to keep the log files, 0 means log files will be deleted immediately
+  number_of_days_to_keep_log_files: 7
