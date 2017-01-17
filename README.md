@@ -1,6 +1,7 @@
 # BDD Automation Framework
 
-BDD framework built using Python and Behave to support automation testing of cleartrip on various browsers
+BDD framework built using Python and Behave to support automation testing of websites on various browsers. This project tries to automate simple booking flight flow on cleartrip [ https://www.cleartrip.com/ ] site.
+
 ## Getting Started
 
 pip install -r requirements.txt
